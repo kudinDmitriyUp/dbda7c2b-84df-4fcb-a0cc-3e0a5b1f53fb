@@ -77,16 +77,16 @@ export default function CaffePage() {
         <FeatureCardThree
           features={[
             {
-              id: "01",              title: "Single-Origin & Micro-Lot Roasts",              description: "Direct sourced from premium farms with small-batch roasting daily. Rotating seasonal selections with full traceability and sustainability.",              imageSrc: "http://img.b2bpic.net/free-photo/cup-coffee-with-tasty-cookies_23-2148336785.jpg?id=5914136",              imageAlt: "Premium specialty coffee beans"
+              id: "01",              title: "Single-Origin & Micro-Lot Roasts",              description: "Direct sourced from premium farms with small-batch roasting daily. Rotating seasonal selections with full traceability and sustainability.",              imageSrc: "http://img.b2bpic.net/free-photo/cup-coffee-with-tasty-cookies_23-2148336785.jpg?id=5914136&_wi=1",              imageAlt: "Premium specialty coffee beans"
             },
             {
-              id: "02",              title: "Urban Sanctuary for Work & Connection",              description: "Industrial-modern design aesthetic with reliable wifi and charging stations. Quiet zones and collaborative spaces with local art and community events.",              imageSrc: "http://img.b2bpic.net/free-photo/two-espresso-cups-coffee-engine_140725-5566.jpg?id=7219621",              imageAlt: "Modern coffee shop interior"
+              id: "02",              title: "Urban Sanctuary for Work & Connection",              description: "Industrial-modern design aesthetic with reliable wifi and charging stations. Quiet zones and collaborative spaces with local art and community events.",              imageSrc: "http://img.b2bpic.net/free-photo/two-espresso-cups-coffee-engine_140725-5566.jpg?id=7219621&_wi=1",              imageAlt: "Modern coffee shop interior"
             },
             {
-              id: "03",              title: "Master Baristas & Expert Service",              description: "Certified specialty coffee professionals offering custom brewing methods for each bean. Personalized recommendations and coffee education tasting events.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-coffee-accessories-table_23-2148336811.jpg?id=5914163",              imageAlt: "Expert barista crafting coffee"
+              id: "03",              title: "Master Baristas & Expert Service",              description: "Certified specialty coffee professionals offering custom brewing methods for each bean. Personalized recommendations and coffee education tasting events.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-coffee-accessories-table_23-2148336811.jpg?id=5914163&_wi=1",              imageAlt: "Expert barista crafting coffee"
             },
             {
-              id: "04",              title: "Inspiring Customers Through Coffee",              description: "Creating moments of joy and inspiration while building community connections. Celebrating the art of coffee culture and empowering customers to explore their passion.",              imageSrc: "http://img.b2bpic.net/free-photo/shot-woman-hands-hold-cup-hot-coffee-with-heart-design-made-foam_343596-4363.jpg?id=13437475",              imageAlt: "Coffee community gathering"
+              id: "04",              title: "Inspiring Customers Through Coffee",              description: "Creating moments of joy and inspiration while building community connections. Celebrating the art of coffee culture and empowering customers to explore their passion.",              imageSrc: "http://img.b2bpic.net/free-photo/shot-woman-hands-hold-cup-hot-coffee-with-heart-design-made-foam_343596-4363.jpg?id=13437475&_wi=1",              imageAlt: "Coffee community gathering"
             }
           ]}
           title="Why Coffee Lovers Choose Sana's"
@@ -115,7 +115,7 @@ export default function CaffePage() {
               id: "3",              name: "Sarah Williams, Freelance Writer",              date: "Date: 28 November 2024",              title: "Where Productivity Meets Pleasure",              quote: "I spend hours here working on projects, and I never feel rushed. The wifi is reliable, the seating is comfortable, and the coffee keeps me inspired. It's become essential to my creative process.",              tag: "Remote Worker",              avatarSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",              imageSrc: "http://img.b2bpic.net/free-photo/breakfast-cafe-vertical-shot-steam-rises-cup-espresso-coffee-glass-water-cookies-table-closeup-sunlight-selective-focus-empty-space-idea-advertising-banner_166373-2884.jpg?_wi=2"
             },
             {
-              id: "4",              name: "David Kim, Coffee Connoisseur",              date: "Date: 5 December 2024",              title: "Serious Coffee for Serious Enthusiasts",              quote: "As someone who appreciates third-wave coffee, I'm impressed by their sourcing transparency and roasting consistency. The pour-over program is fantastic, and the baristas truly understand coffee craft.",              tag: "Coffee Aficionado",              avatarSrc: "http://img.b2bpic.net/free-photo/alone-specialist-handsome-daydreaming-collar_1262-870.jpg",              imageSrc: "http://img.b2bpic.net/free-photo/male-barista-brewing-coffee-alternative-method-pour_176420-14715.jpg"
+              id: "4",              name: "David Kim, Coffee Connoisseur",              date: "Date: 5 December 2024",              title: "Serious Coffee for Serious Enthusiasts",              quote: "As someone who appreciates third-wave coffee, I'm impressed by their sourcing transparency and roasting consistency. The pour-over program is fantastic, and the baristas truly understand coffee craft.",              tag: "Coffee Aficionado",              avatarSrc: "http://img.b2bpic.net/free-photo/alone-specialist-handsome-daydreaming-collar_1262-870.jpg",              imageSrc: "http://img.b2bpic.net/free-photo/male-barista-brewing-coffee-alternative-method-pour_176420-14715.jpg?_wi=1"
             }
           ]}
         />
@@ -129,7 +129,7 @@ export default function CaffePage() {
           tagIcon={Mail}
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/cozy-workspace-with-coffee-hearts-keyboard_191095-99789.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/cozy-workspace-with-coffee-hearts-keyboard_191095-99789.jpg?_wi=1"
           imageAlt="Premium coffee at Sana's Caffe"
           mediaAnimation="opacity"
           mediaPosition="right"

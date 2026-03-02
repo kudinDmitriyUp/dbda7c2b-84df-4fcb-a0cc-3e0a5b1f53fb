@@ -50,7 +50,7 @@ export default function CoffeeMenuPage() {
             { text: "Reserve Your Drink", href: "contact" }
           ]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/top-view-coffee-accessories-table_23-2148336811.jpg?id=5914163"
+          imageSrc="http://img.b2bpic.net/free-photo/top-view-coffee-accessories-table_23-2148336811.jpg?id=5914163&_wi=2"
           imageAlt="Specialty coffee drinks"
           mediaAnimation="blur-reveal"
           imagePosition="right"
@@ -61,22 +61,22 @@ export default function CoffeeMenuPage() {
         <FeatureCardThree
           features={[
             {
-              id: "01",              title: "Espresso",              description: "Rich, concentrated shots of pure coffee intensity. Our signature single-shot and double-shot options highlight the bold flavors of our single-origin roasts. Perfect for espresso purists who appreciate the craft.",              imageSrc: "http://img.b2bpic.net/free-photo/cup-coffee-with-tasty-cookies_23-2148336785.jpg?id=5914136",              imageAlt: "Espresso shot"
+              id: "01",              title: "Espresso",              description: "Rich, concentrated shots of pure coffee intensity. Our signature single-shot and double-shot options highlight the bold flavors of our single-origin roasts. Perfect for espresso purists who appreciate the craft.",              imageSrc: "http://img.b2bpic.net/free-photo/cup-coffee-with-tasty-cookies_23-2148336785.jpg?id=5914136&_wi=2",              imageAlt: "Espresso shot"
             },
             {
-              id: "02",              title: "Americano",              description: "A smooth, balanced cup made with espresso diluted with hot water. Creates a full-bodied coffee experience with the intensity of espresso and the smoothness of a classic drip coffee. Ideal for those who love simplicity with depth.",              imageSrc: "http://img.b2bpic.net/free-photo/two-espresso-cups-coffee-engine_140725-5566.jpg?id=7219621",              imageAlt: "Americano coffee"
+              id: "02",              title: "Americano",              description: "A smooth, balanced cup made with espresso diluted with hot water. Creates a full-bodied coffee experience with the intensity of espresso and the smoothness of a classic drip coffee. Ideal for those who love simplicity with depth.",              imageSrc: "http://img.b2bpic.net/free-photo/two-espresso-cups-coffee-engine_140725-5566.jpg?id=7219621&_wi=2",              imageAlt: "Americano coffee"
             },
             {
               id: "03",              title: "Pistachio Latte",              description: "A luxurious blend of creamy steamed milk, espresso, and rich pistachio flavor. Our pistachio selection brings a subtle nuttiness and natural sweetness that perfectly complements our medium roasts. A contemporary favorite.",              imageSrc: "http://img.b2bpic.net/free-photo/coffee-mug-white-background_23-2148336788.jpg?id=5914148",              imageAlt: "Pistachio latte"
             },
             {
-              id: "04",              title: "Chaga Latte",              description: "A wellness-focused beverage combining creamy milk, espresso, and adaptogenic chaga mushroom. Earthy and grounding with potential immune-boosting properties. Perfect for health-conscious coffee enthusiasts seeking functional benefits.",              imageSrc: "http://img.b2bpic.net/free-photo/shot-woman-hands-hold-cup-hot-coffee-with-heart-design-made-foam_343596-4363.jpg?id=13437475",              imageAlt: "Chaga latte"
+              id: "04",              title: "Chaga Latte",              description: "A wellness-focused beverage combining creamy milk, espresso, and adaptogenic chaga mushroom. Earthy and grounding with potential immune-boosting properties. Perfect for health-conscious coffee enthusiasts seeking functional benefits.",              imageSrc: "http://img.b2bpic.net/free-photo/shot-woman-hands-hold-cup-hot-coffee-with-heart-design-made-foam_343596-4363.jpg?id=13437475&_wi=2",              imageAlt: "Chaga latte"
             },
             {
               id: "05",              title: "Matcha Coffee",              description: "A unique fusion combining vibrant matcha green tea with smooth espresso and steamed milk. Creates a beautiful layered drink with earthy matcha notes balanced by coffee's bold character. A modern twist on traditional flavors.",              imageSrc: "http://img.b2bpic.net/free-photo/breakfast-cafe-vertical-shot-steam-rises-cup-espresso-coffee-glass-water-cookies-table-closeup-sunlight-selective-focus-empty-space-idea-advertising-banner_166373-2884.jpg?_wi=2",              imageAlt: "Matcha coffee"
             },
             {
-              id: "06",              title: "Signature Seasonal Blend",              description: "Our rotating seasonal specialty featuring limited-edition combinations crafted by our head barista. Featuring unique flavor profiles that celebrate the best beans available each season. Ask our team for today's special.",              imageSrc: "http://img.b2bpic.net/free-photo/male-barista-brewing-coffee-alternative-method-pour_176420-14715.jpg",              imageAlt: "Seasonal coffee specialty"
+              id: "06",              title: "Signature Seasonal Blend",              description: "Our rotating seasonal specialty featuring limited-edition combinations crafted by our head barista. Featuring unique flavor profiles that celebrate the best beans available each season. Ask our team for today's special.",              imageSrc: "http://img.b2bpic.net/free-photo/male-barista-brewing-coffee-alternative-method-pour_176420-14715.jpg?_wi=2",              imageAlt: "Seasonal coffee specialty"
             }
           ]}
           title="Our Premium Coffee Selection"
@@ -96,7 +96,7 @@ export default function CoffeeMenuPage() {
           tagIcon={Mail}
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/cozy-workspace-with-coffee-hearts-keyboard_191095-99789.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/cozy-workspace-with-coffee-hearts-keyboard_191095-99789.jpg?_wi=2"
           imageAlt="Coffee shop atmosphere"
           mediaAnimation="opacity"
           mediaPosition="right"
