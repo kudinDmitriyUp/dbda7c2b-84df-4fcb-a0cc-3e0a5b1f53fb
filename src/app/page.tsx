@@ -8,7 +8,7 @@ import FeatureCardTwelve from '@/components/sections/feature/FeatureCardTwelve';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Coffee, Mail } from "lucide-react";
+import { Coffee, Mail, Lightbulb, Heart, Sparkles } from "lucide-react";
 
 export default function CaffePage() {
   return (
@@ -75,7 +75,7 @@ export default function CaffePage() {
       <div id="features" data-section="features">
         <FeatureCardTwelve
           title="Why Coffee Lovers Choose Sana's"
-          description="Discover what sets our craft coffee experience apart from the rest"
+          description="Discover what sets our craft coffee experience apart—inspired by our vision to elevate everyday moments through exceptional coffee and connection"
           textboxLayout="default"
           animationType="slide-up"
           useInvertedBackground={false}
@@ -93,6 +93,11 @@ export default function CaffePage() {
             {
               id: "expertise",              label: "Expertise",              title: "Master Baristas & Expert Service",              items: [
                 "Certified specialty coffee professionals",                "Custom brewing methods for each bean",                "Personalized recommendations",                "Coffee education and tasting events"
+              ]
+            },
+            {
+              id: "vision",              label: "Vision",              title: "Inspiring Customers Through Coffee",              items: [
+                "Creating moments of joy and inspiration",                "Building community connections",                "Celebrating the art of coffee culture",                "Empowering customers to explore their passion"
               ]
             }
           ]}
