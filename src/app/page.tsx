@@ -76,16 +76,16 @@ export default function CaffePage() {
         <FeatureCardThree
           features={[
             {
-              id: "01",              title: "Single-Origin & Micro-Lot Roasts",              description: "Direct sourced from premium farms with small-batch roasting daily. Rotating seasonal selections with full traceability and sustainability.",              imageSrc: "http://img.b2bpic.net/free-photo/specialty-coffee-beans-direct-trade-roasting_500-400.jpg",              imageAlt: "Premium specialty coffee beans"
+              id: "01",              title: "Single-Origin & Micro-Lot Roasts",              description: "Direct sourced from premium farms with small-batch roasting daily. Rotating seasonal selections with full traceability and sustainability.",              imageSrc: "http://img.b2bpic.net/free-photo/cup-coffee-with-tasty-cookies_23-2148336785.jpg?id=5914136",              imageAlt: "Premium specialty coffee beans"
             },
             {
-              id: "02",              title: "Urban Sanctuary for Work & Connection",              description: "Industrial-modern design aesthetic with reliable wifi and charging stations. Quiet zones and collaborative spaces with local art and community events.",              imageSrc: "http://img.b2bpic.net/free-photo/modern-coffee-shop-interior-design_500-400.jpg",              imageAlt: "Modern coffee shop interior"
+              id: "02",              title: "Urban Sanctuary for Work & Connection",              description: "Industrial-modern design aesthetic with reliable wifi and charging stations. Quiet zones and collaborative spaces with local art and community events.",              imageSrc: "http://img.b2bpic.net/free-photo/two-espresso-cups-coffee-engine_140725-5566.jpg?id=7219621",              imageAlt: "Modern coffee shop interior"
             },
             {
-              id: "03",              title: "Master Baristas & Expert Service",              description: "Certified specialty coffee professionals offering custom brewing methods for each bean. Personalized recommendations and coffee education tasting events.",              imageSrc: "http://img.b2bpic.net/free-photo/barista-brewing-coffee-expertise_500-400.jpg",              imageAlt: "Expert barista crafting coffee"
+              id: "03",              title: "Master Baristas & Expert Service",              description: "Certified specialty coffee professionals offering custom brewing methods for each bean. Personalized recommendations and coffee education tasting events.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-coffee-accessories-table_23-2148336811.jpg?id=5914163",              imageAlt: "Expert barista crafting coffee"
             },
             {
-              id: "04",              title: "Inspiring Customers Through Coffee",              description: "Creating moments of joy and inspiration while building community connections. Celebrating the art of coffee culture and empowering customers to explore their passion.",              imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-community-inspiration_500-400.jpg",              imageAlt: "Coffee community gathering"
+              id: "04",              title: "Inspiring Customers Through Coffee",              description: "Creating moments of joy and inspiration while building community connections. Celebrating the art of coffee culture and empowering customers to explore their passion.",              imageSrc: "http://img.b2bpic.net/free-photo/shot-woman-hands-hold-cup-hot-coffee-with-heart-design-made-foam_343596-4363.jpg?id=13437475",              imageAlt: "Coffee community gathering"
             }
           ]}
           title="Why Coffee Lovers Choose Sana's"
