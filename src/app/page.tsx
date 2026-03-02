@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
-import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
+import FeatureCardTwelve from '@/components/sections/feature/FeatureCardTwelve';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
@@ -41,7 +41,7 @@ export default function CaffePage() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Craft Your Perfect Cup"
+          title="Artisan Coffee Crafted Daily in Downtown SF"
           description="Welcome to Sana's Caffe, where artisan coffee meets downtown elegance. Experience carefully sourced beans, expertly prepared by our passionate baristas in the heart of San Francisco."
           background={{ variant: "glowing-orb" }}
           tag="Premium Coffee"
@@ -73,27 +73,29 @@ export default function CaffePage() {
       </div>
 
       <div id="features" data-section="features">
-        <FeatureCardThree
+        <FeatureCardTwelve
+          title="Why Coffee Lovers Choose Sana's"
+          description="Discover what sets our craft coffee experience apart from the rest"
+          textboxLayout="default"
+          animationType="slide-up"
+          useInvertedBackground={false}
           features={[
             {
-              id: "01",              title: "Single-Origin & Micro-Lot Roasts",              description: "Direct sourced from premium farms with small-batch roasting daily. Rotating seasonal selections with full traceability and sustainability.",              imageSrc: "http://img.b2bpic.net/free-photo/specialty-coffee-beans-direct-trade-roasting_500-400.jpg",              imageAlt: "Premium specialty coffee beans"
+              id: "specialty-roasts",              label: "Specialty",              title: "Single-Origin & Micro-Lot Roasts",              items: [
+                "Direct sourced from premium farms",                "Small-batch roasting daily",                "Rotating seasonal selections",                "Full traceability and sustainability"
+              ]
             },
             {
-              id: "02",              title: "Urban Sanctuary for Work & Connection",              description: "Industrial-modern design aesthetic with reliable wifi and charging stations. Quiet zones and collaborative spaces with local art and community events.",              imageSrc: "http://img.b2bpic.net/free-photo/modern-coffee-shop-interior-design_500-400.jpg",              imageAlt: "Modern coffee shop interior"
+              id: "ambiance",              label: "Ambiance",              title: "Urban Sanctuary for Work & Connection",              items: [
+                "Industrial-modern design aesthetic",                "Reliable wifi and charging stations",                "Quiet zones and collaborative spaces",                "Local art and community events"
+              ]
             },
             {
-              id: "03",              title: "Master Baristas & Expert Service",              description: "Certified specialty coffee professionals offering custom brewing methods for each bean. Personalized recommendations and coffee education tasting events.",              imageSrc: "http://img.b2bpic.net/free-photo/barista-brewing-coffee-expertise_500-400.jpg",              imageAlt: "Expert barista crafting coffee"
-            },
-            {
-              id: "04",              title: "Inspiring Customers Through Coffee",              description: "Creating moments of joy and inspiration while building community connections. Celebrating the art of coffee culture and empowering customers to explore their passion.",              imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-community-inspiration_500-400.jpg",              imageAlt: "Coffee community gathering"
+              id: "expertise",              label: "Expertise",              title: "Master Baristas & Expert Service",              items: [
+                "Certified specialty coffee professionals",                "Custom brewing methods for each bean",                "Personalized recommendations",                "Coffee education and tasting events"
+              ]
             }
           ]}
-          title="Why Coffee Lovers Choose Sana's"
-          description="Discover what sets our craft coffee experience apart—inspired by our vision to elevate everyday moments through exceptional coffee and connection"
-          gridVariant="four-items-2x2-equal-grid"
-          animationType="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={false}
         />
       </div>
 
