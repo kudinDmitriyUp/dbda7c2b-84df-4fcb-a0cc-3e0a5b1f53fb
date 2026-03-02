@@ -30,6 +30,7 @@ export default function CaffePage() {
           navItems={[
             { name: "About", id: "about" },
             { name: "Menu", id: "features" },
+            { name: "Coffee Menu", id: "/coffee-menu" },
             { name: "Testimonials", id: "testimonials" },
             { name: "Contact", id: "contact" }
           ]}
@@ -146,7 +147,7 @@ export default function CaffePage() {
                 { label: "Espresso Drinks", href: "features" },
                 { label: "Single Origins", href: "features" },
                 { label: "Pastries & Food", href: "features" },
-                { label: "Seasonal Specials", href: "features" }
+                { label: "Coffee Menu", href: "/coffee-menu" }
               ]
             },
             {
